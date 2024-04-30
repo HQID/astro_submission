@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Submission PT</title>
+    <title>RegStyle</title>
+    <link rel="shortcut icon" href="assets/2742687.png" type="image/x-icon" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/5839e33f4b.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Navbar Start -->
@@ -19,14 +21,19 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#products">Products</a></li>
-          <li><a href="">Shop</a></li>
-          <li><a href="">Join Us</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#contact">Join Us</a></li>
         </ul>
       </nav>
       <div class="nav-button">
         <div class="search"><img src="/assets/magnifying-glass.png" alt="" /></div>
         <div class="cart">
           <img src="/assets/shopping-cart-black-shape (1).png" alt="cart-logo" />
+          <div id="hamburger" class="hamburger">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
         </div>
       </div>
     </header>
@@ -79,5 +86,92 @@
       </div>
     </section>
     <!-- Products Section End -->
+
+    <!-- Shop Section Start -->
+    <section class="shop" id="shop">
+      <h1>Our Products</h1>
+      <div class="card-container">
+        <div class="card">
+          <img src="img/card1.jpg" alt="white nike air max" />
+          <h2>Nike Air Max 1</h2>
+          <p>Rp. 1.899.000,00</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/card2.jpg" alt="green nike air max" />
+          <h2>Nike Air Max 3</h2>
+          <p>Rp. 1.499.999,00</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/card3.jpg" alt="black nike shoes" />
+          <h2>Nike Young 1</h2>
+          <p>Rp. 999.999,00</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/card4.jpg" alt="red velvet shoes" />
+          <h2>Converse Velvete 8</h2>
+          <p>Rp. 699.999,00</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/card5.jpg" alt="black nike shoes" />
+          <h2>Nike Edge 2</h2>
+          <p>Rp. 799.999,00</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/card6.jpg" alt="black nike shoes" />
+          <h2>Nike C12</h2>
+          <p>Rp. 1.099.999,00</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <button>More -></button>
+    </section>
+    <!-- Shop Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+      <form action="">
+        <h1>Subscribe Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, ipsum aliquid error quam officia quasi.</p>
+        <div class="input">
+          <input type="email" id="email" placeholder="Enter Your Email" />
+          <button>Get Started</button>
+        </div>
+      </form>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-desc">
+          <h1>RegStyle</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestias ex deleniti, neque nemo doloremque?</p>
+          <p>Powered by :</p>
+          <div class="footer-logo">
+            <div class="hmc"><img src="assets/hmcLight.png" alt="logo hmc" /></div>
+            <div class="pt"><img src="assets/LOGO-02 (1).png" alt="logo pt" /></div>
+          </div>
+
+          <strong>contact@gmail.com</strong>
+        </div>
+        <div class="footer-socialmedia">
+          <p>Social Media</p>
+          <div>
+            <img src="assets/facebook.png" alt="facebook logo" />
+            <img src="assets/instagram.png" alt="instagram logo" />
+            <img src="assets/twitter.png" alt="x logo" />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p>Copyright&copy; RegStyle 2024</p>
+    </footer>
+    <!-- Footer End -->
   </body>
+  <script src="/js/script.js"></script>
 </html>
