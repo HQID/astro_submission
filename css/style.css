@@ -3,7 +3,6 @@
   --secondary-color: #edf2f4;
   --third-color: #8d99ae;
   --primary-red: #ef233c;
-  --secondary-red: #d90429;
 }
 
 *,
@@ -666,7 +665,7 @@ footer > p {
   display: block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   header {
     padding: 20px;
     justify-content: space-between;
@@ -894,7 +893,7 @@ footer > p {
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 769px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
   header {
     padding: 20px 50px;
     justify-content: space-between;
@@ -947,8 +946,16 @@ footer > p {
     padding: 100px 50px;
   }
 
+  .one button {
+    width: 70%;
+  }
+
   .preorder {
     padding: 50px;
+  }
+
+  .po-aside button {
+    width: 40%;
   }
 
   .shop {
