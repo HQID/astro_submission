@@ -563,6 +563,10 @@ footer > p {
     display: block;
   }
 
+  .catalouge {
+    padding-top: 40px;
+  }
+
   .catalouge-container h1 {
     text-align: center;
   }
@@ -601,6 +605,16 @@ footer > p {
 
   .catalouge-container > button {
     width: 60%;
+  }
+
+  .slider-nav {
+    bottom: 1rem;
+    column-gap: 0.75rem;
+  }
+
+  .slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
   }
 }
 
